@@ -1,0 +1,31 @@
+@font-face {
+  font-family: "Vazir";
+  src: url("../fonts/Vazir.eot");
+  /* IE9 Compat Modes */
+  src: url("../fonts/Vazir.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Vazir.woff2") format("woff2"),
+    url("../fonts/Vazir.woff") format("woff"),
+    url("../fonts/Vazir.ttf") format("truetype");
+  /* Safari, Android, iOS */
+}
+
+body {
+  direction: rtl;
+  text-align: right !important;
+  font-family: "Vazir" !important;
+  background: skyblue;
+}
+
+.btn-primary:hover{
+  box-shadow: 1px 1px 5px black;
+}
+.clear-tasks:hover{
+  box-shadow: 1px 1px 5px black;
+}
+.delete-item{
+  transition: all .5s;
+}
+.delete-item:hover{
+padding: 4px;
+background: rgb(0, 0, 0);
+}
